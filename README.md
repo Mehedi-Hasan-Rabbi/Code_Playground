@@ -2,26 +2,26 @@
  It's an online Code Editor use to run C and C++ programs. Also this website can be use to write and develop code in HTML, CSS and JS. There are also some cool feature in the website that is Sorting algorithms visualizer to see how sorting works, Quiz exam.
 
 Features
- User Registration
- User Login
- Admin Login
- Admin panel
- Report Generation
- Write or develop the code that powers the web
- Run C and C++ code
- Give quiz exam
- Sorting algorithms visualizer to see how sorting works
+1. User Registration
+2. User Login
+3. Admin Login
+4. Admin panel
+5. Report Generation
+6. Write or develop the code that powers the web
+7. Run C and C++ code
+8. Give quiz exam
+9. Sorting algorithms visualizer to see how sorting works
 
 Technology Used
 Frontend Technology
- HTML
- CSS
- JavaScript
- Bootstrap
- jQuery
+1. HTML
+2. CSS
+3. JavaScript
+4. Bootstrap
+5. jQuery
 Backend Technology
- PHP
- MySQL
+1. PHP
+2. MySQL
 
 Tools Used
 As the functional requirements, we have indicated: 
