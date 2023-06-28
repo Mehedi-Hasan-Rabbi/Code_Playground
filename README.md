@@ -12,13 +12,13 @@ Features
 8. Give quiz exam
 9. Sorting algorithms visualizer to see how sorting works
 
-Technology Used
 Frontend Technology
 1. HTML
 2. CSS
 3. JavaScript
 4. Bootstrap
 5. jQuery
+
 Backend Technology
 1. PHP
 2. MySQL
