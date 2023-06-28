@@ -1,10 +1,10 @@
 # Code_Playground
 
-I made it when I studied in 4th semester in univarsity.
+I made it when I studied in the 4th semester at university.
 Course Code: CIT-220,
 Course Title: Web Programming Project
 
- It's an online Code Editor use to run C and C++ programs. Also this website can be use to write and develop code in HTML, CSS and JS. There are also some cool feature in the website that is Sorting algorithms visualizer to see how sorting works, Quiz exam.
+ It's an online Code Editor used to run C and C++ programs. Also, this website can be used to write and develop code in HTML, CSS, and JS. There are also some cool features on the website: Sorting algorithms visualizer to see how sorting works, Quiz exam.
 
 Features
 1. User Registration
@@ -29,10 +29,10 @@ Backend Technology
 2. MySQL
 
 Tools Used
-As the functional requirements, we have indicated: 
-1) Development tools, Visual Studio Code and a sustainable environment for 
+As for the functional requirements, we have indicated the following: 
+1) Development tools, Visual Studio Code, and a sustainable environment for 
 development. 
-2) The apache web server for deploying the application and establish the 
+2) The Apache web server for deploying the application and establishing 
 relational-database connections. 
-3) Different Compilers which will compile code of different type of programming 
+3) Different Compilers which will compile code of different types of programming 
 languages.
