@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(210, 255, 255);
+}
+input[type = radio]
+{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+ul{
+    list-style: none;
+}
+
+li{
+   font-size: 1.2rem;
+}
+
+#showScore{
+    background-color: #dfe6e9;
+    margin: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.scoreArea{
+    display: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

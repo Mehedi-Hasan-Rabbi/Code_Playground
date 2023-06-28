@@ -1,0 +1,28 @@
+This code is a demo code to test playground
+
+HTML
+----------------------------------
+<button>Get Message</button>
+
+CSS
+----------------------------------
+body {
+    height:95vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+button {
+    padding:1rem 2rem;
+    border:none;
+    border-radius:2rem;
+    cursor:pointer;
+    background:lime;
+    color:white;
+}
+
+JS
+---------------------------------
+document.querySelector('button').onclick=()=>
+prompt('Did you love this live code editor?');

@@ -1,0 +1,154 @@
+.btn-signup {
+  border-radius: 8px;
+  padding: 8px;
+  background-color: #0079f27a;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-signup:hover {
+  border-color: white;
+}
+
+.btn-login {
+  border-color: white;
+  background-color: #1c2538;
+  border-radius: 18%;
+  padding: 8px;
+  color: white;
+}
+
+.btn-login:hover {
+  background-color: #348dd6;
+}
+
+body {
+  padding-top: 76px;
+}
+
+video {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  top: -76px;
+}
+
+.custom-div {
+  margin-top: 76px !important;
+  position: relative !important;
+}
+.banner {
+  top: 0;
+  left: 0;
+}
+.banner {
+  top: -76px;
+  left: 0;
+  position: absolute;
+  background: rgba(255, 255, 255, -0.2);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 75px;
+  color: white;
+}
+.banner p {
+  color: white;
+}
+
+.btn-signup-banner {
+  background-color: blue;
+  color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
+.btn-signup-banner:hover {
+  border-color: white;
+}
+
+.nav-hover:hover {
+  background-color: rgba(109, 109, 109, 0.79);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+h1.feature-header {
+  text-align: center;
+  margin: -82px 0px 55px;
+  font-style: italic;
+  font-size: -webkit-xxx-large;
+  color: antiquewhite;
+  padding-top: 90px;
+}
+
+.feature {
+  background: linear-gradient(180deg, #192334 0%, #4e66d7 100%);
+  padding-bottom: 90px;
+}
+
+.feature .card {
+  background-color: #0e1525;
+  color: gray;
+  height: 250px;
+  font-size: larger;
+  padding: 17px;
+}
+
+.feature .card .card-header {
+  text-align: center;
+  color: white;
+}
+
+.feature .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 162, 0, 0.39),
+    0 6px 20px 0 rgba(255, 162, 0, 0.39);
+}
+
+.demo {
+  background: linear-gradient(180deg, #192334 0%, #4e66d7 100%);
+  padding: 30px 70px 65px;
+}
+
+.demo h3 {
+  color: gray;
+}
+
+.demo h2,
+p {
+  color: white;
+}
+.demo .row {
+  padding-top: 130px;
+}
+
+.footer {
+  background-color: #282531;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer ul {
+  list-style-type: none;
+  color: white;
+}
+.footer li {
+  color: white;
+  margin-bottom: 15px;
+}
+.footer a {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  background-color: #282531;
+  color: white;
+}

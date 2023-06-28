@@ -1,0 +1,71 @@
+h3 {
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+body,
+html {
+  overflow: hidden !important;
+}
+
+body {
+  background-image: linear-gradient(45deg, rgb(74, 225, 255), #1a009c);
+}
+
+.row.cspace {
+  max-width: 85%;
+  margin: auto;
+}
+
+label.mt-4 {
+  display: block;
+  margin-top: 20px;
+}
+.toolBar {
+  max-width: 85%;
+  width: 85%;
+  margin: auto;
+  text-align: right;
+  padding: 20px;
+}
+
+textarea {
+  font-family: "consolas";
+  background-color: blue !important;
+  color: rgb(74, 225, 255) !important;
+}
+
+label {
+  color: wheat;
+}
+
+input#st {
+  position: absolute;
+  top: -45px;
+  right: 15px;
+}
+.top {
+  position: relative;
+  top: -42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -50px;
+}
+.top label {
+  width: 170px;
+}
+.col-sm-4 {
+  padding-top: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  body,
+  html {
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+  }
+}

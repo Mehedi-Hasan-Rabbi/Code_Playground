@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>IDE - Code Playground</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/favicon-196.png" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h3 style="background-color: black; text-align: center; color: white">
+        Code Playgorund - Online Compiler
+      </h3>
+      <div class="toolBar">
+      </div>
+      <form action="compile.php" id="form" name="f2" method="POST">
+      <div class="row cspace">
+        
+        <div class="col-sm-8">
+          <div class="form-group">
+              <div class="top">
+                <label for="lang">Choose Language</label>
+              <select class="form-control" name="language">
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="cpp11">C++11</option>
+              </select>
+              </div>
+              <br /><br />
+              <label for="ta">Write Your Code</label>
+              <textarea
+                class="form-control"
+                name="code"
+                rows="20"
+                cols="50"
+                id="codePlayGround"
+              ></textarea>
+              <br /><br />
+
+              <br /><br />
+              <br /><br /><br />
+            <!-- </form> -->
+            <script type="text/javascript">
+              $(document).ready(function () {
+                $("#st").click(function () {
+                  $("#div").html("Loading ......");
+                });
+              });
+            </script>
+            <script>
+              //wait for page load to initialize script
+              $(document).ready(function () {
+                //listen for form submission
+                $("form").on("submit", function (e) {
+                  //prevent form from submitting and leaving page
+                  e.preventDefault();
+
+                  // AJAX
+                  $.ajax({
+                    type: "POST", //type of submit
+                    cache: false, //important or else you might get wrong data returned to you
+                    url: "compile.php", //destination
+                    datatype: "html", //expected data format from process.php
+                    data: $("form").serialize(), //target your form's data and serialize for a POST
+                    success: function (result) {
+                      // data is the var which holds the output of your process.php
+
+                      // locate the div with #result and fill it with returned data from process.php
+                      $("#div").html(result);
+                    },
+                  });
+                });
+              });
+            </script>
+
+            <br /><br />
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <input
+                type="submit"
+                id="st"
+                class="btn btn-success"
+                value="Run Code"
+            />
+             
+          <label for="in">Enter Your Input</label>
+          <textarea
+            class="form-control"
+            name="input"
+            rows="8"
+            cols="50"
+          ></textarea>
+
+          <label for="out" class="mt-4">Output</label>
+          <textarea
+            id="div"
+            class="form-control"
+            name="output"
+            rows="9"
+            cols="50"
+            disabled
+          ></textarea>
+        </div>
+      </form>
+      </div>
+    </div>
+
+    <script>
+      $("#fontSelector").click(function () {
+        var fontName = $("#fontSelector option:selected").text();
+        console.log(fontName);
+        if (fontName == "poppins") {
+          $("#codePlayGround").addClass("consolas");
+        }
+      });
+      $("#fontSelector").click(function () {
+        var fontName = $("#fontSelector option:selected").html();
+        console.log(fontName);
+        if (fontName == "consolas") {
+          $("#codePlayGround").addClass("consolas");
+        }
+      });
+    </script>
+  </body>
+</html>
