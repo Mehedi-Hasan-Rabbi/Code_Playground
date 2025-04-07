@@ -6,6 +6,7 @@
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+![SavePalestine](https://raw.githubusercontent.com/.../save-palestine.svg)
 
 **Code_Playground** is an online code editor designed to run C and C++ programs, as well as to write and develop code in HTML, CSS, and JavaScript. It features sorting algorithm visualizations, quizzes, and various administrative functionalities.  
 
